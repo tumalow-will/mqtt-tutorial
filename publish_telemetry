@@ -1,0 +1,2 @@
+#!/usr/bin/env bash
+mosquitto_pub -d -h "dashboard.tumalow.com" -t "v1/devices/me/telemetry" -u "$ACCESS_TOKEN" -f example_telemetry_data.json
